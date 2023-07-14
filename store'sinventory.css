@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#header {
+  margin: 20px auto;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header label,
+#header input,
+#header span {
+  margin-right: 10px;
+}
+
+#output {
+  margin: 20px auto;
+  width: 500px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.price {
+  margin-left: 10px;
+}

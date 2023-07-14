@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #output {
+    margin: 20px auto;
+    width: 500px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+  }
+  
+  .book {
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  .author {
+    text-transform: capitalize;
+  }
+  
